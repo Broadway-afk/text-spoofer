@@ -1,5 +1,4 @@
-import { spoofSymbolEnum } from "@/06-shared/text-spoofer/spoofSymbolEnum";
-
+import { spoofSymbolEnum } from "spoofSymbolEnum";
 export function spoofString(inputString) {
   return inputString
     .replace(/&[^;]+;/g, "") // removes &..; constructions from editor
